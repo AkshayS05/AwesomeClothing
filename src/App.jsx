@@ -1,10 +1,12 @@
 import Home from './Pages/Home/Home';
-function App() {
+import ProductList from './Pages/ProductList/ProductList';
+const App = () => {
   return (
     <div className="App">
-      <Home />
+      {/* <Home /> */}
+      <ProductList />
     </div>
   );
-}
+};
 
 export default App;
