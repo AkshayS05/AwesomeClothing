@@ -32,7 +32,7 @@ const ProductList = () => {
     <Container>
       <Announcement />
       <Navbar />
-      <Title>Dresses</Title>
+      <Title>All Products</Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products: </FilterText>
