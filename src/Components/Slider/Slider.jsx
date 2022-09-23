@@ -1,6 +1,7 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@mui/icons-material';
 
 import styled from 'styled-components';
+import { mobile } from '../../Responsive';
 import { useState } from 'react';
 import { sliderItems } from '../../data';
 const Container = styled.div`
@@ -10,6 +11,7 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
+  ${mobile({ display: 'none' })}
 `;
 // the best thing about styled components is that we can pass props in them
 const Arrow = styled.div`

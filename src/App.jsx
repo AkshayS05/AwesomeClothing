@@ -9,10 +9,10 @@ const App = () => {
     <div className="App">
       {/* <Home /> */}
       {/* <ProductList /> */}
-      {/* <Product /> */}
+      <Product />
       {/* <Register /> */}
       {/* <Login /> */}
-      <Cart />
+      {/* <Cart /> */}
     </div>
   );
 };
